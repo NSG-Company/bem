@@ -1,0 +1,17 @@
+
+
+
+
+
+@import './variables';
+@import './header';
+
+
+
+.contact {
+    @extend header;
+    background: lightcoral;
+    background: lightcyan;
+    width: 100% - 20%;
+ //  @include flexCenter(row, blue); 
+}
